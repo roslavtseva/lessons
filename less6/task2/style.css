@@ -1,0 +1,19 @@
+li {
+    margin-bottom: 16px;
+}
+
+ol span {
+    background-color: green;
+}
+
+ul span {
+    background-color: orange;
+}
+
+#special+li span {
+    border: 3px solid red;
+}
+
+#special~li {
+    margin-left: 16px;
+}
