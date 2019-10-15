@@ -2,6 +2,7 @@
     background-color: red;
 }
 
+.highlighted,
 .company-data {
     color: yellow;
 }
