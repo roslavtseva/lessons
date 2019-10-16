@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.size {
+    padding: 50px;
+    border: 2px solid;
+}
+
+.first {
+    background-color: blue;
+    margin: 50px;
+}
+
+.second {
+    background-color: yellow;
+}
+
+.third {
+    background-color: green;
+}
+
+.fourth {
+    background-color: pink;
+}
