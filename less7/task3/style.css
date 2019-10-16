@@ -1,6 +1,6 @@
 .theory::first-letter {
-    margin-left: 16px;
     font-size: 36px;
+    margin-left: 16px;
     color: orange;
 }
 
@@ -9,8 +9,8 @@
 }
 
 .theory::selection {
-    color: white;
     background-color: red;
+    color: white;
 }
 
 a::before {
