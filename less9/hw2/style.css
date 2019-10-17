@@ -18,11 +18,9 @@
 }
 
 .nav-item {
-    height: 100%;
-    list-style-type: none;
+    display: inline-block;
     margin-left: 16px;
     color: white;
-    align-items: center;
 }
 
 nav ul li:nth-child(2) {
