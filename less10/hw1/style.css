@@ -1,8 +1,11 @@
 .container{
     display:flex;
+    flex-wrap: nowrap;
+
+}
+.block{
     height: 300px;
     width: 100vh;
-    flex-wrap: nowrap;
 
 }
 .block_red{
