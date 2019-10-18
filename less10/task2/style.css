@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .header{
     height: 40px;
     background-color: yellow;
@@ -40,7 +40,7 @@
 .news{
     width: 200px;
     background-color: grey;
-=======
+
 * {
     box-sizing: border-box;
 }
@@ -80,5 +80,3 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: gray;
->>>>>>> b3909f1540fb33f7232fb86124df8e521f1c287a
-}
