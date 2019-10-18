@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header{
     height: 40px;
     background-color: yellow;
@@ -39,4 +40,45 @@
 .news{
     width: 200px;
     background-color: grey;
+=======
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 40px;
+    background-color: yellow;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    height: 40px;
+    background-color: green;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+}
+
+.main-aside {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+>>>>>>> b3909f1540fb33f7232fb86124df8e521f1c287a
 }
