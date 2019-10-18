@@ -1,33 +1,34 @@
 * {
     box-sizing: border-box;
 }
-.container{
+body{
     display:flex;
 
 }
 .block{
     height: 300px;
+    flex-grow: 2;
 
 
 }
 .block_red{
     background-color: red;
-    flex-grow: 2;
+    
 }
 .block_green{
     background-color: green;
-    flex-grow: 2;
+    
 
 }
 .block_blue{
     background-color: blue;
-    flex-grow: 2;
+    
 }
 .block_yellow{
     background-color: yellow;
-    flex-grow: 2;
+    
 }
 .block_black{
     background-color: black;
-    flex-grow: 2;
+    
 }
