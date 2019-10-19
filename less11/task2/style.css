@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+.articles{
+    display: flex;
+    
+}
+div{
+    width: 150px;
+    height: 100px;
+    background-color: bisque;
+    margin: 16px;
+
+}
+.cropped{
+    overflow: hidden;
+}
+.both-scrolls{
+    overflow: scroll;
+}
+.both-scrolls{
+    overflow: auto;
+}
