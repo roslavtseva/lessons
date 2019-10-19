@@ -18,6 +18,6 @@ div{
 .both-scrolls{
     overflow: scroll;
 }
-.both-scrolls{
+.vertical-scroll{
     overflow: auto;
 }
