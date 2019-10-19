@@ -1,0 +1,11 @@
+.display {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    overflow: visible;
+}
