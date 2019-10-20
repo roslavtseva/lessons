@@ -1,0 +1,30 @@
+section{
+    margin: 32px;
+
+}
+html{
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+}
+h1{
+    word-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    line-height: 28px;
+}
+.technology{
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.translation{
+    color: grey;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+}
