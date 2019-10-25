@@ -1,0 +1,44 @@
+/*Блок с надписью Later I'll do something разместите ровно по центру картинки. А картинку отцентрируйте по горизонтали
+Картинка не должна растягиваться больше своей оригинальной ширины. Но должна сжиматься, если не помещается на экран по ширине.
+Стили карточки с надписью
+
+ширина - 200px, высота - 50px
+Цвет фона - bisque;
+шрифт - 12px в uppercase, насыщенность - 700
+карточка должна быть полупрозрачной (opacity: 0.5;) по умолчанию, но менять opacity на 1 при наведении курсора. Курсором установите pointer
+Добавьте картинке описание в атрибут alt (текст на ваше усмотрение). Не забываем, что это обязательный атрибут.*/
+*{
+    box-sizing: border-box;
+}
+image{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    
+
+}
+
+.image-container{
+    position: relative;
+    margin: 0 auto;
+}
+.image-button{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 200px;
+    height: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    cursor: pointer;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.image-button:hover{
+    opacity: 1;
+}
