@@ -1,17 +1,20 @@
-html{
+/*Задайте всему документу размер шрифта 18px
+Задайте элементам списка цвет текста #f39, размер шрифта 24px, высоту строки 32px и внутренние отступы 8px
+Уберите точки перед элементами списка*/
+
+html {
     font-size: 18px;
 }
-.properties-list__item{
+
+.properties-list {
     margin: 23px 0;
-  
-  
-   
 }
-.properties-list{
-    color: #f39;
-    font-size: 24px;
+
+li {
+
     line-height: 32px;
-    list-style-type: none;
     padding: 8px;
-    
- }
+    font-size: 24px;
+    list-style-type: none;
+    color: #ff3399;
+}
