@@ -6,11 +6,11 @@
 Добавьте контролы, чтобы можно было воспроизвести видео*/
 
 
-.main-video{
-    max-width: 100%;
-    width: 500px;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 200px;
+* {
+    box-sizing: border-box;
+}
+
+video {
     display: block;
+    margin: 200px auto;
 }
