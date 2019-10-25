@@ -1,0 +1,39 @@
+/*Нормализуйте стили и установите box-sizing по границе
+Добавьте на страницу <div> с классом .image-container и отступом сверху 50px. В него поместите картинку big.jpeg. Разместите ее посередине страницы. Картинка должна уменьшаться при уменьшении экрана, но не растягиваться больше своего оригинального размера. Скруглите углы на 10px
+Отступите 50px и добавьте <div> с классом .gallery. В него добавьте 3 карточки с классами .card. Каждая карточка содержит картинку small.jpg и подпись (используйте теги <figure> и <figurecaption>). Высота подписи 30px, текст должен быть посередине и в нижнем регистре.
+Каждая карточка (изображение + подпись) должна иметь внешний отступ 16px и тень box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);
+Добавьте фильтры картинкам в том порядке, как видите на примере
+
+filter: opacity(50%);
+filter: blur(4px);
+filter: invert(100%);
+Добавьте картинкам описание в атрибут alt (текст на ваше усмотрение). Не забываем, что это обязательный атрибут.*/
+
+.main-image{
+
+margin: 50px auto 0;
+display: block;
+max-width: 100%;
+border-radius: 10px;
+}
+.gallery{
+    margin-top: 50px;
+    display: flex;
+}
+.card{
+    margin: 16px;
+    box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);
+}
+.opacity-filter{
+    filter: opacity(50%)
+}
+.caption{
+    line-height: 30px;
+    text-align: center;
+}
+.blur-filter{
+    filter: blur(4px);
+}
+.invert-filter{
+    filter: invert(100%);
+}
