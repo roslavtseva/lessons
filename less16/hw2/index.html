@@ -12,7 +12,7 @@
 <body>
     <form class="main-form">
         <div class="login-form">
-           <input type="text" name="primaryLanguage" value="HTML" disabled;>
+           <input type="text" name="primaryLanguage" value="HTML" disabled>
         </div>
 
         <div class="login-form">
@@ -32,7 +32,9 @@
         </div>
 <!-- another time from example-->
         <div class="login-form">
-            <input type="datetime-local" name="datetime-local" value="2024-10-04T13:02">
+         <!--<input type="datetime-local" name="birthTime" value="2024-10-04T13:02">-->
+            <input type="datatime-local" name="birthTime" value="10/04/2024, 01:02 PM">
+   
         </div>
 
         <div class="login-form">
@@ -56,17 +58,17 @@
         </div>
 
         <div class="login-form">
-            <input type="password" value="secret">
+            <input type="password" name="password" value="secret">
         </div>
 
         <div class="login-form languages">
             <input type="radio" name="languages" value="html"> HTML
-            <input type="radio" name="languages" value="css"> CSS
+            <input type="radio" name="languages" value="css" checked> CSS
             <input type="radio" name="languages" value="javascript">JavaScript
         </div>
 
         <div class="login-form">
-            <input type="range" name=" learningProgress" value="30">
+            <input type="range" name="learningProgress" value="30">
         </div>
 
         <div class="login-form">
