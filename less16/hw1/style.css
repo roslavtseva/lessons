@@ -1,0 +1,75 @@
+/*Не забудьте про box-sizing
+Цвет фона - bisque, цвет формы - aqua. Форма располагается по центру страницы.
+Шрифт - 16px, monospace.
+Ширина формы - 300px, внутренние отступы - 16px, тень - 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+Заголовок формы заглавными буквами и по центру
+Инпут отступает от нижнего на 8px
+Лейбл отступает от онпута снизу на 4px
+Инпут на всю шрину формы, высота - 32px, радиус уголков - 4px, граница 1px, цвет - #808080. У инпута есть внутренний отступ 4px, outline: none
+Если нипут не удовлетворяет атрибуты валидации, он должен обводиться #ff0000 границей 3px
+Кнопка на всю ширину, 32px в высоту, цвет - #ff7f50, отступает сверху на 16px. Текст кнопки в верхнем регистре, белого цвета. Радиус уголков - 4px.
+*/
+*{
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: bisque;
+}
+
+
+.login-form{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-family: monospace;
+    width: 300px;
+    padding: 16px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);;
+
+}
+.form-control{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.form-title{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%
+}
+.form-label{
+    padding-bottom: 4px;
+    display: block;
+}
+.form-input{
+    width: 100%;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    padding: 4px;
+    outline: none;
+}
+
+.submit-button{
+    width: 100%;
+    height: 32px;
+    background-color: #ff7f50;
+    margin-top: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+
+}
+.form-input:invalid {
+    border: 3px solid #ff0000;
+}
