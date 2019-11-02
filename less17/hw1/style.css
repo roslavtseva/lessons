@@ -1,0 +1,55 @@
+/*Основные требования:
+Нормализуйте стили
+Ширина и высота ячейки должна быть 50px(помним про box-sizing). Для всей таблицы внешний отступ 16px
+Обратите внимание на то, в каком порядке расположены черные и белые ячейки
+Текст расположен по центру ячейки
+Ячейки по периметру не имеют границ и с белым фоном. Возможно придется прибегнуть для них к важным объявлениям (!important)
+*/
+
+
+*{
+    box-sizing: border-box;
+}
+tr,
+td{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+ 
+}
+table{
+    margin: 16px;
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+   
+}
+/*table > td:nth-child(odd){
+    background-color: black;
+}
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+	background: white;
+}*/
+
+
+td{
+    border: 1px solid black;
+}
+.odd>td:nth-child(odd):not(:first-of-type) {
+    background-color: black;
+}
+.even>td:nth-child(even):not(:last-of-type) {
+    background-color: black;
+}
+.letters>td:nth-child(even){
+    background-color: white !important;
+    border: none;
+}
+.letters>td:nth-child(odd){
+    background-color: white !important;
+    border: none;
+}
+.number{
+    background-color: white !important;
+    border: none;
+}
