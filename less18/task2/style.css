@@ -1,0 +1,33 @@
+.custom-button{
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 50px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 64px;
+}
+
+.custom-button:hover{
+    color: darkcyan;
+    cursor: pointer;
+}
+.custom-button:hover > .bird-icon{
+    fill: red;
+}
+
+.bird-icon{
+    fill: white;
+    width:32px;
+    height: 32px;
+    vertical-align: middle;
+}
+/*doesn`t work hover
+.bird-icon:hover {
+    fill: red;
+}*/
