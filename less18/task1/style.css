@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+}
+.small_bird{
+    width: 64px;
+    height: 64px;
+}
+.large_bird{
+    width: 320px;
+    height: 320px;
+}
+.column{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
