@@ -4,11 +4,11 @@
 .row{
     display: flex;
 }
-.small_bird{
+.small-bird{
     width: 64px;
     height: 64px;
 }
-.large_bird{
+.large-bird{
     width: 320px;
     height: 320px;
 }
