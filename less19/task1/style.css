@@ -10,6 +10,8 @@
     background-color: coral;
     margin-bottom: 16px;
     opacity: 0.5;
+    text-align: center;
+    line-height: 100px;
    
 }
 .rect:hover{
