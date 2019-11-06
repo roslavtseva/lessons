@@ -1,14 +1,12 @@
 *{
     box-sizing: border-box;
 }
-body{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-.container{
-    display: flex;
+
 }
 .spinner{
     margin: auto;
@@ -20,7 +18,7 @@ body{
     animation: blinking 2s infinite linear;
 }
 .rect{
-    position: absolute;
+    position: relative;
     background-color: black;
     width:10px;
     height: 4px;
@@ -28,7 +26,7 @@ body{
     animation: moving 2s linear infinite alternate, blinking 2s linear infinite;
 
 }
-.center-rect{
+.center-rect{ 
     position: relative;
 }
 
