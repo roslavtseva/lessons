@@ -21,7 +21,7 @@
     opacity: 1;
 
 }
-.linear{
+.linear {
     transition-timing-function: linear;
 }
 .ease{
