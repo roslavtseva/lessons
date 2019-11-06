@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html{
     font-size: 18px;
 }
@@ -12,4 +15,7 @@ html{
 }
 .font-in-percents{
     font-size: 150%;
+}
+.font-in-rem{
+    font-size: 1.5rem;
 }
