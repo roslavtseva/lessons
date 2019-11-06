@@ -24,12 +24,11 @@ body{
 }
 .navigation{
     padding: 0.5em;
-
-    max-width: 20%;
+    width: 20%;
 }
 .nav-list{
     padding: 0;
-    text-decoration: none;
+    list-style-type: none;
 }
 .nav-list-item{
     display: flex;
@@ -48,7 +47,7 @@ body{
     text-overflow: ellipsis;    
 }
 .section{
-    max-width: 60%;
+    width: 60%;
     font-size: 1.25em;
     padding: 0.5em;
 
@@ -69,8 +68,8 @@ body{
 }
 .news{
     padding: 0.5em;
-
-    max-width: 20%;
+    width: 20%;
+    height: 100%;
 }
 
 .footer{
