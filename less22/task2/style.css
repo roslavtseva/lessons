@@ -4,25 +4,27 @@
     display: flex;
     flex-grow: 1;
 }
-span{
-    background-color: #faebd7;
-    padding: 8px;
-    border-radius: 4px;
-    text-transform: lowercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: auto;
-}
 .product-list{
     background-color: #006400;
     min-height: 200px;
     display: flex;
     flex-grow: 1;
 }
+
+
 .news{
     background-color: #0ff;
     min-height: 200px;
     display: flex;
     flex-grow: 1;
+}
+span{
+    background-color: #faebd7;
+    padding: 8px;
+    border-radius: 4px;
+    text-transform: lowercase;
+    font-family: Verdana;
+    margin: auto;
 }
 
 @media screen and (min-width: 600px){
