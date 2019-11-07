@@ -20,7 +20,6 @@ body{
 }
 .main{
     display: flex;
-    padding: 0.5em;
 }
 .navigation{
     padding: 0.5em;
