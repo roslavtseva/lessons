@@ -1,12 +1,6 @@
 *{
     box-sizing: border-box;
 }
-.square{
-    width: 100px;
-    height: 100px;
-    background-color: #8a2be2;
-    margin: 8px;
-}
 .container{
     display: flex;
     height: 100vh;
@@ -14,7 +8,15 @@
     align-items: center ;
 
 }
-@media screen and (width: 600px){
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #8a2be2;
+    margin: 8px;
+}
+
+@media screen and (max-width: 600px){
     .square{
         background-color: #ff7f50;
     }
