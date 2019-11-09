@@ -1,11 +1,15 @@
 @import 'variables.scss';
 
 .header{
-    height: $unit * 7;
     background-color: $color-grey;
 
 }
 .nav-list{
     padding: 0;
     margin: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: $unit * 7;
+
 }
