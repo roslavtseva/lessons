@@ -6,7 +6,8 @@
     display: flex;
     flex-direction: row;
     margin:0;
-    margin-left: 3em;
+    margin-left: 2em;
+    padding: 0;
     height: 3em;
     text-transform: uppercase;
     list-style-type: none;
@@ -61,6 +62,6 @@
             cursor: pointer;
         }
         &__item:hover {
-            color: black;
+            color:#000;
         }
     }
